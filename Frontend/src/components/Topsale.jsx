@@ -1,7 +1,7 @@
 export default function Topsale() {
   return (
-    <div className="flex flex-col items-center justify-center mx-auto w-10/12 my-12">
-      <h1 className="text-3xl w-full font-bold my-4 text-gray-800 dark:text-white">
+    <div className="flex flex-col items-center justify-center mx-auto w-10/12 ">
+      <h1 className="text-3xl w-full font-bold my-4 text-gray-800 dark:text-gray0-900">
         Top Sale
       </h1>
       <div className="w-full grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -17,7 +17,7 @@ export default function Topsale() {
 
 function Card() {
   return (
-    <div className="w-full bg-[#7bbae8] p-4 rounded-2xl shadow-lg transition hover:scale-105 duration-300">
+    <div className="w-full bg-gray-800 p-4 rounded-2xl shadow-lg transition hover:scale-105 duration-300">
       <img
         src="/mangosago.jpg"
         alt="Top Sale Item"

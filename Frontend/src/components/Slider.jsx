@@ -4,7 +4,7 @@ import "swiper/css";
 
 export default function FullscreenSlider() {
   return (
-    <div className="w-full h-[600px] overflow-hidden">
+    <div className="w-full lg:h-[600px] overflow-hidden">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={0}

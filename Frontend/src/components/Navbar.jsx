@@ -42,7 +42,7 @@ export default function Navbar() {
         {/* Overlay Menu */}
         <div
           className={`
-            fixed top-0 left-0 w-full h-full bg-[#7bbae8] bg-opacity-90 
+            fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-90 
             flex flex-col items-center justify-center space-y-6 
             text-white text-xl font-medium 
             transform transition-transform duration-300 ease-in-out
