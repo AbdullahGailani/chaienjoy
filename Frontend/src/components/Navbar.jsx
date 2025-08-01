@@ -60,21 +60,17 @@ export default function Navbar() {
           >
             &times;
           </button>
-          {[
-            "Home",
-            "About",
-            "Services",
-            "Pricing",
-            "Contact",
-          ].map((text) => (
-            <a
-              key={text}
-              href="#"
-              onClick={() => setMenuOpen(false)}
-            >
-              {text}
-            </a>
-          ))}
+          {["Menu", "Home", "About", "FAQ", "Contact"].map(
+            (text) => (
+              <a
+                key={text}
+                href={`/${text}`}
+                onClick={() => setMenuOpen(false)}
+              >
+                {text}
+              </a>
+            )
+          )}
         </div>
 
         {/* Desktop Menu */}
